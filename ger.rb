@@ -11,9 +11,12 @@ contacts = {
   }
 }
 
-def delete_flavor(hash, contact)
-  hash[contact][:favorite_ice_cream_flavors].shift
+def delete_flavor(hash, contact, flavor_to_remove)
+  hash[contact][:favorite_ice_cream_flavors].each do |flavor|
+    if flavor == flavor_to_remove
+      flavor.remove 
+    end
   hash
 end
 
-puts delete_flavor(contacts, "Freddy Mercury")
+puts delete_flavor(contacts, "Freddy Mercury", "strawberry")
