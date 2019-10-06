@@ -14,7 +14,7 @@ contacts = {
 def delete_flavor(hash, contact, flavor_to_remove)
   hash[contact][:favorite_ice_cream_flavors].each do |flavor|
     if flavor == flavor_to_remove
-      flavor.remove 
+      flavor.remove
     end
   end
   hash
