@@ -13,8 +13,6 @@ contacts = {
 
 def delete_flavor(hash, contact, flavor_to_remove)
   hash[contact][:favorite_ice_cream_flavors].delete(flavor_to_remove)
-    end
-  end
   hash
 end
 
