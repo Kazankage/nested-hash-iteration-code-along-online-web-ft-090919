@@ -1,3 +1,4 @@
+require 'pry'
 contacts = {
   "Jon Snow" => {
     name: "Jon",
