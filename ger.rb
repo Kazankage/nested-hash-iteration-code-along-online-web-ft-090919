@@ -16,6 +16,7 @@ def delete_flavor(hash, contact, flavor_to_remove)
     if flavor == flavor_to_remove
       flavor.remove 
     end
+  end
   hash
 end
 
