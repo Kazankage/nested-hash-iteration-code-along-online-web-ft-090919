@@ -12,7 +12,7 @@ contacts = {
 }
 
 def delete_flavor(hash)
-  hash["Freddy Mercury"][:favorite_ice_cream_flavors].push
+  hash["Freddy Mercury"][:favorite_ice_cream_flavors].unpush
   hash
 end
 
