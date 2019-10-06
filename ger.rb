@@ -17,7 +17,7 @@ def delete_flavor(hash, contact, flavor_to_remove)
   hash
 end
 
-#puts delete_flavor(contacts, "Freddy Mercury", "strawberry")
+puts delete_flavor(contacts, "Freddy Mercury", "strawberry")
 
 contacts.each do |person, contact_details_hash| 
   binding.pry 
