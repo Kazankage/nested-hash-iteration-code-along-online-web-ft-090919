@@ -15,3 +15,5 @@ def delete_flavor(hash)
   hash["Freddy Mercury"]
   hash
 end
+
+delete_flavor(contacts)
