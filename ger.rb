@@ -10,3 +10,8 @@ contacts = {
     favorite_ice_cream_flavors: ["strawberry", "cookie dough", "mint chip"]
   }
 }
+
+def delete_flavor(hash)
+  hash["Freddy Mercury"]
+  hash
+end
