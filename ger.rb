@@ -16,4 +16,4 @@ def delete_flavor(hash)
   hash
 end
 
-delete_flavor(contacts)
+puts delete_flavor(contacts)
