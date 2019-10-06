@@ -11,9 +11,9 @@ contacts = {
   }
 }
 
-def delete_flavor(hash)
-  hash["Freddy Mercury"][:favorite_ice_cream_flavors].shift
+def delete_flavor(hash, contact)
+  hash[contact][:favorite_ice_cream_flavors].shift
   hash
 end
 
-puts delete_flavor(contacts)
+puts delete_flavor(contacts, "Freddy Mercury")
